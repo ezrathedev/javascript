@@ -6,9 +6,9 @@ const inventory = {
   shirts: 50,
 };
 
-// Write your code below:
+// an arrow function that has two paras that resolves and rejects
 const myExecutor = (resolve, reject) => {
-  inventory.sunglasses > 0
+  inventory.sunglasses > 0 // this is checking if sunglasses is more that zero
     ? resolve("Sunglasses order processed.")
     : reject("That item is sold out.");
 };
