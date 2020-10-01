@@ -17,3 +17,20 @@ const orderSunglasses = () => {
 };
 var orderPromise = orderSunglasses();
 console.log(orderPromise);
+//---------------------------------------------------------------------
+
+
+console.log("This is the first line of code in promise.js.");
+// Keep the line above as the first line of code
+
+
+// this will display after 3 seconds
+const usingSTO = () => {
+  console.log('this will display after 3 seconds');
+}
+setTimeout(usingSTO,3000)
+
+
+
+// Keep the line below as the last line of code:
+console.log("This is the last line of code in promise.js.");
